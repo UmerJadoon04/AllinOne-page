@@ -1,0 +1,31 @@
+2024-08-24 15:05:28,445 INFO : test_pageoptions :radio3 option is selected
+2024-08-24 15:05:31,612 INFO : test_pageoptions :Country Pakistan is selected
+2024-08-24 15:05:32,177 INFO : test_pageoptions :option3 is selected
+2024-08-24 15:05:32,643 INFO : test_pageoptions :checkbox1 is selected
+2024-08-24 15:06:26,830 INFO : test_pageoptions :successfully get control on child window
+2024-08-24 15:06:35,872 INFO : test_pageoptions :successfully get control on child tab
+2024-08-24 15:06:40,193 INFO : test_pageoptions :successfully get Umer jadoon in alert
+2024-08-24 15:06:42,067 INFO : test_pageoptions :get course data from table and compares list successfully
+2024-08-24 15:06:44,666 INFO : test_pageoptions :get Show Text in displayed text
+2024-08-24 16:54:39,892 INFO : test_pageoptions :radio3 option is selected
+2024-08-24 16:54:42,834 INFO : test_pageoptions :Country Pakistan is selected
+2024-08-24 16:54:43,444 INFO : test_pageoptions :option3 is selected
+2024-08-24 16:54:43,942 INFO : test_pageoptions :checkbox1 is selected
+2024-08-24 16:55:25,905 INFO : test_pageoptions :successfully get control on child window
+2024-08-24 16:55:34,708 INFO : test_pageoptions :successfully get control on child tab
+2024-08-24 16:55:40,506 INFO : test_pageoptions :successfully get Umer jadoon in alert
+2024-08-24 16:55:43,223 INFO : test_pageoptions :get course data from table and compares list successfully
+2024-08-24 16:55:45,098 INFO : test_pageoptions :get Show Text in displayed text
+2024-08-24 16:55:46,053 INFO : test_pageoptions :get the sum of amount and compare with expected value 
+2024-08-24 16:55:47,713 INFO : test_pageoptions :successfully click the Top option using mousehover
+2024-08-25 22:56:00,971 INFO : test_pageoptions :radio3 option is selected
+2024-08-25 22:56:03,698 INFO : test_pageoptions :Country Pakistan is selected
+2024-08-25 22:56:04,369 INFO : test_pageoptions :option3 is selected
+2024-08-25 22:56:04,664 INFO : test_pageoptions :checkbox1 is selected
+2024-08-25 22:57:04,845 INFO : test_pageoptions :successfully get control on child window
+2024-08-25 22:57:12,747 INFO : test_pageoptions :successfully get control on child tab
+2024-08-25 22:57:17,422 INFO : test_pageoptions :successfully get Umer jadoon in alert
+2024-08-25 22:57:19,002 INFO : test_pageoptions :get course data from table and compares list successfully
+2024-08-25 22:57:20,103 INFO : test_pageoptions :get Show Text in displayed text
+2024-08-25 22:57:20,552 INFO : test_pageoptions :get the sum of amount and compare with expected value 
+2024-08-25 22:57:21,350 INFO : test_pageoptions :successfully click the Top option using mousehover

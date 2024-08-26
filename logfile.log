@@ -1,0 +1,11 @@
+2024-08-26 02:40:22,943 INFO : test_pageoptions :radio3 option is selected
+2024-08-26 02:40:30,625 INFO : test_pageoptions :Country Pakistan is selected
+2024-08-26 02:40:31,516 INFO : test_pageoptions :option3 is selected
+2024-08-26 02:40:32,050 INFO : test_pageoptions :checkbox1 is selected
+2024-08-26 02:42:19,322 INFO : test_pageoptions :successfully get control on child window
+2024-08-26 02:42:28,671 INFO : test_pageoptions :successfully get control on child tab
+2024-08-26 02:42:35,786 INFO : test_pageoptions :successfully get Umer jadoon in alert
+2024-08-26 02:42:38,203 INFO : test_pageoptions :get course data from table and compares list successfully
+2024-08-26 02:42:39,819 INFO : test_pageoptions :get Show Text in displayed text
+2024-08-26 02:42:40,572 INFO : test_pageoptions :get the sum of amount and compare with expected value 
+2024-08-26 02:42:41,585 INFO : test_pageoptions :successfully click the Top option using mousehover

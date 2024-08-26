@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-08-23T12:38:52.801326" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Users\Dell\PycharmProjects\PythonPracticePage\Tests\test.robot">
+<test id="s1-t1" name="Example Test Case" line="12">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-23T12:38:54.320011" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/AutomationPractice/#/'.</msg>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-23T12:38:54.318019" elapsed="16.150437"/>
+</kw>
+<kw name="Select Radio Button">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//input[@value='radio2']</arg>
+<arg>timeout=10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-08-23T12:39:10.478432" elapsed="1.172872"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-08-23T12:39:11.652289" level="INFO">Clicking element 'xpath=//input[@value='radio2']'.</msg>
+<arg>xpath=//input[@value='radio2']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-23T12:39:11.651304" elapsed="0.364022"/>
+</kw>
+<status status="PASS" start="2024-08-23T12:39:10.474445" elapsed="1.541877"/>
+</kw>
+<kw name="Enter Autocomplete Text">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-08-23T12:39:12.020305" level="INFO">Typing text 'Pa' into text field 'id=autocomplete'.</msg>
+<arg>id=autocomplete</arg>
+<arg>Pa</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-23T12:39:12.019309" elapsed="1.373327"/>
+</kw>
+<status status="PASS" start="2024-08-23T12:39:12.018310" elapsed="1.375324"/>
+</kw>
+<kw name="Select From Autocomplete">
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<msg time="2024-08-23T12:39:13.534258" level="INFO">${elements} = []</msg>
+<var>${elements}</var>
+<arg>class_name=ui-menu-item</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="PASS" start="2024-08-23T12:39:13.400615" elapsed="0.133643"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<var>${text}</var>
+<arg>${course}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-08-23T12:39:13.543243" elapsed="0.000000"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${text}'=='Pakistan'</arg>
+<arg>Click Element</arg>
+<arg>${course}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="NOT RUN" start="2024-08-23T12:39:13.546224" elapsed="0.000000"/>
+</kw>
+<kw name="Break">
+<status status="NOT RUN" start="2024-08-23T12:39:13.549226" elapsed="0.000000"/>
+</kw>
+<var name="${course}"/>
+<status status="NOT RUN" start="2024-08-23T12:39:13.538252" elapsed="0.011969"/>
+</iter>
+<var>${course}</var>
+<value>@{elements}</value>
+<status status="NOT RUN" start="2024-08-23T12:39:13.535256" elapsed="0.014965"/>
+</for>
+<status status="PASS" start="2024-08-23T12:39:13.399618" elapsed="0.152595"/>
+</kw>
+<kw name="Select Dropdown Option">
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2024-08-23T12:39:13.572157" level="INFO">Selecting options from selection list 'id=dropdown-class-example' by value option3.</msg>
+<arg>id=dropdown-class-example</arg>
+<arg>option3</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2024-08-23T12:39:13.571159" elapsed="0.780911"/>
+</kw>
+<status status="PASS" start="2024-08-23T12:39:13.570162" elapsed="0.782909"/>
+</kw>
+<kw name="Check Checkbox">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-08-23T12:39:14.355062" level="INFO">Clicking element 'id=checkBoxOption1'.</msg>
+<arg>id=checkBoxOption1</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-23T12:39:14.354065" elapsed="0.196475"/>
+</kw>
+<status status="PASS" start="2024-08-23T12:39:14.353071" elapsed="0.199471"/>
+</kw>
+<kw name="Handle Windows">
+<kw name="Get Window Handle">
+<msg time="2024-08-23T12:39:14.580464" level="FAIL">No keyword with name 'Get Window Handle' found. Did you mean:
+    SeleniumLibrary.Get Window Handles</msg>
+<var>${current_window}</var>
+<status status="FAIL" start="2024-08-23T12:39:14.580464" elapsed="0.000997">No keyword with name 'Get Window Handle' found. Did you mean:
+    SeleniumLibrary.Get Window Handles</status>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>id=openwindow</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-08-23T12:39:14.582469" elapsed="0.000000"/>
+</kw>
+<kw name="Get Window Handles" owner="SeleniumLibrary">
+<var>${all_windows}</var>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<status status="NOT RUN" start="2024-08-23T12:39:14.583456" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<var>${new_window}</var>
+<arg>[window for window in ${all_windows} if window != '${current_window}'][0]</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" start="2024-08-23T12:39:14.584462" elapsed="0.000993"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>${new_window}</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" start="2024-08-23T12:39:14.585455" elapsed="0.000998"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>link_text=Courses</arg>
+<arg>timeout=10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2024-08-23T12:39:14.586453" elapsed="0.000000"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<arg>link_text=Courses</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-08-23T12:39:14.586453" elapsed="0.000000"/>
+</kw>
+<kw name="Close Window" owner="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="NOT RUN" start="2024-08-23T12:39:14.587443" elapsed="0.000000"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>${current_window}</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" start="2024-08-23T12:39:14.587443" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-08-23T12:39:14.558528" elapsed="0.028915">No keyword with name 'Get Window Handle' found. Did you mean:
+    SeleniumLibrary.Get Window Handles</status>
+</kw>
+<kw name="Handle Tabs">
+<status status="NOT RUN" start="2024-08-23T12:39:14.588441" elapsed="0.000000"/>
+</kw>
+<kw name="Fill Form And Verify Alert">
+<status status="NOT RUN" start="2024-08-23T12:39:14.590434" elapsed="0.000000"/>
+</kw>
+<kw name="Verify Course List">
+<status status="NOT RUN" start="2024-08-23T12:39:14.595423" elapsed="0.000000"/>
+</kw>
+<kw name="Calculate And Verify Sum">
+<status status="NOT RUN" start="2024-08-23T12:39:14.597419" elapsed="0.000000"/>
+</kw>
+<kw name="Perform Mouse Hover">
+<status status="NOT RUN" start="2024-08-23T12:39:14.599413" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser">
+<status status="NOT RUN" start="2024-08-23T12:39:14.600409" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-08-23T12:38:54.310038" elapsed="20.291369">No keyword with name 'Get Window Handle' found. Did you mean:
+    SeleniumLibrary.Get Window Handles</status>
+</test>
+<status status="FAIL" start="2024-08-23T12:38:52.812295" elapsed="21.793098"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
